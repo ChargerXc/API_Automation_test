@@ -2,6 +2,10 @@
 
 基于 pytest + requests 的接口测试脚本，覆盖云帆考试系统部门管理、题库管理共 5 个接口。
 
+## 被测系统
+
+云帆考试系统 V2（开源项目，Spring Boot 3 + Vue 3），本地部署后测试。
+
 ## 技术栈
 
 Python 3.14 / requests / pytest / openpyxl / pytest-html
