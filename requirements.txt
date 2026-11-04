@@ -1,0 +1,4 @@
+requests
+pytest
+openpyxl
+pytest-html
