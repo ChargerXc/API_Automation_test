@@ -52,4 +52,5 @@ python -m pytest --html=report.html --self-contained-html
 - 父级 id 不存在时返回非标准错误格式（错误响应未统一）
 - 排序接口未校验跨父级交换，导致同级 sort 重复
 
-完整用例与缺陷分析见同目录上级的测试报告。
+完整用例与缺陷分析见/doc中的测试报告。
+另：新增基于Jmeter的压力测试，主要测试tree查询与save新增两个功能的TPS情况，详细数据见/doc中的测试报告
